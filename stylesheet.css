@@ -1,0 +1,74 @@
+/** @format */
+body {
+  background-image: url("plant.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+th {
+  background-color: #b39a64;
+  color: white;
+}
+
+td {
+  color: #2c3135;
+  background-color: #fcfcfc;
+}
+
+p {
+  color: #2c3135;
+  font-size: 14px;
+}
+
+table,
+th,
+td {
+  font-family: 'Montserrat', sans-serif;
+  width: 1000px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+  text-align: center;
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: #ffd480;
+}
+
+th,
+td {
+  padding: 5px;
+  width: 300px;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 15px;
+  border: 1px dashed #ad9e9e;
+  width: 200px;
+  height: 10px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+}
+
+form {
+  width: 300px;
+  background-color: #d5a46f;
+  text-align: justify;
+}
+
+#header {
+  width: 250px;
+  text-align: left;
+  left: 50px;
+}
+
+#button1 {
+  width: 50px;
+}
